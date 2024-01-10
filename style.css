@@ -198,6 +198,7 @@ a{
     border-radius: 0.5rem;
 }
 
+
 .card-title{
     font-weight: 500;
 }
@@ -230,6 +231,36 @@ a{
 
 .album{
     width: 25%;
+    display: flex;
+
+}
+
+.album-img{
+    width: 16%;
+    height: 16%;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.2rem;
+}
+
+.album-title{
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+
+.album-info{
+    opacity: 0.8;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    margin-left: 1rem;
+}
+
+.fa-heart{
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
 }
 
 .player{
